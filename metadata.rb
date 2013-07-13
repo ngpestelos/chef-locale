@@ -5,6 +5,6 @@ description "Fixes the LC_ALL not found problem"
 version "0.1.0"
 recipe "locale:default", ""
 
-%w { ubuntu debian }.each do |os|
+%w{ ubuntu debian }.each do |os|
   supports os
 end
